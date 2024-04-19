@@ -1,1 +1,122 @@
-My link in bio
+<html>
+  <head>
+    <style>
+      body 
+      {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(25, 94, 139);
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-image
+      {
+        width: 380px;
+        height: 520px;
+        object-fit: cover;
+        border-radius: 40px;
+        border: 2mm ridge rgb(39, 141, 131);
+      }
+
+      .link-image
+      {
+        width: 48px;
+        height: 48px;
+        object-fit: contain;
+        border-radius: 30px;
+      }
+
+      .name
+      {
+        color: rgb(217, 250, 246);
+        display: flex;
+        justify-content: center;
+        font-size: 48px;
+        font-family: fantasy, "Times New Roman";
+      }
+
+      .banner
+      {
+        display: flex;
+        justify-content: center;
+      }
+
+      .link
+      {
+        background-color: rgb(105, 45, 45);
+        display: flex;
+        align-items: center;
+        width: 600px;
+        padding: 5px;
+      }
+      .link a
+      {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .social a
+      {
+        text-decoration: none;
+      }
+
+      .social
+      {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+      }
+
+      .items
+      {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 600px;
+        align-items: center;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="/images/portrait.jpg" alt="Generic banner image." class="banner-image">
+      </div>
+
+      <div class="name">
+        Michael Breedlove
+      </div>
+
+      <div class="social">
+        <a href="https://github.com/MichaelBreedlove2000" target="_blank">
+          Professional GitHub
+        </a>
+
+        <a href="https://github.com/SupremeSpookmaster" target="_blank">
+          TF2 Modding GitHub
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="/images/hello.png" alt="Hello!" class="link-image">
+        <a href="https://www.youtube.com/watch?v=lqYqyHBTZjg" target="_blank">
+          Hello!
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="/images/construction.png" alt="Current Project" class="link-image">
+        <a href="https://github.com/SupremeSpookmaster/Chaos-Fortress" target="_blank">
+          Current Hobby Project
+        </a>
+      </div>
+    </div>
+  </body>
+
+</html>
